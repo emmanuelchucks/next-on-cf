@@ -2,7 +2,7 @@
 const nextConfig = {
   experimental: {
     serverActions: {
-      allowedOrigins: ["https://next-on-cf-ck8.pages.dev"],
+      allowedOrigins: ["next-on-cf-ck8.pages.dev"],
     },
   },
 };
