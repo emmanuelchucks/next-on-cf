@@ -6,7 +6,7 @@ export const runtime = "edge";
 const HOST =
   process.env.NODE_ENV === "development"
     ? "http://localhost:3000"
-    : "https://next-on-cf-ck8.pages.dev/";
+    : "https://next-on-cf-ck8.pages.dev";
 
 export default async function Home() {
   const response = await fetch(HOST + "/api/names");
