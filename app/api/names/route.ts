@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 const names = ["John", "Paul", "George", "Ringo"];
 
 export function GET(_request: Request) {
