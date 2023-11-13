@@ -15,5 +15,6 @@ export async function POST(request: Request) {
   }
 
   names.push(name);
+
   return Response.json(names);
 }
